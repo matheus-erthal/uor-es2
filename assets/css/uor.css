@@ -1,0 +1,121 @@
+/* geral */
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+/* roboto condensed font-weight types: 700 */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 42px;;
+}
+h1{
+    font-size: 42px;
+}
+/* raleway font-weight types: 400, 500, 700 */
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.circle-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #FC7F17;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.circle-btn svg{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.circle-btn::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -30px;
+    text-align: center;
+    width: 100%;
+}
+.circle-btn.group{
+    background-image: url(../images/group-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+    margin-top: 60px;
+}
+.circle-btn.rules::after{
+    content: "REGRAS";
+}
+.circle-btn.group::after{
+    content: "GRUPO";
+}
+.circle-btn.back::after{
+    content: "VOLTAR";
+}
+.rectangular-btn{
+    background-color: #FC7F17;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 31px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 5px 20px;
+    border-bottom: 5px #884D09 solid;
+}
+.rectangular-btn:hover{
+    border-bottom: 0;
+    margin-top: 5px;
+}
+
+/* home */
+#main-menu{
+    height: 100vh;
+    background-image: url(../images/uor-bg.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#main-menu .logo img{
+    max-width: 600px;
+}
+#main-menu .row{
+    height: 100vh;
+}
+#main-menu .col-md-1{
+    padding-top: 50px
+}
+/* end home */
+
+/* selecting players */
+#select-players{
+    height: 100vh;
+    background-image: url(../images/uor-bg.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#select-players h1{
+    text-align: center;
+}
+#select-players .row{
+    height: 100vh;
+}
+#select-players .col-md-1{
+    padding-top: 50px
+}
+/* end selecting players */
+
+
+/* the board */
+/* end the board */
