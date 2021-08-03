@@ -1,4 +1,4 @@
-![Banner Uór](assets/logo.png)
+![Banner Uór](assets/images/logo.png)
 
 # Uór - Jogo de Tabuleiro Virtual
 
