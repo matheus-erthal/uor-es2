@@ -9,7 +9,7 @@
 ### Funcionalidades a serem desenvolvidas
 
 - [x] Página principal
-- [ ] Seleção de jogadores
+- [x] Seleção de jogadores
 - [ ] Implementação do Mapa
 - [ ] Implementação dos Exércitos
 - [ ] Lógica principal do jogo
