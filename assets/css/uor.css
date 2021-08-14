@@ -108,12 +108,129 @@ p{
 #select-players h1{
     text-align: center;
 }
-#select-players .row{
+#select-players .players-row{
     height: 100vh;
 }
 #select-players .col-md-1{
     padding-top: 50px
 }
+.player{
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.player svg{
+    font-size: 80px;
+    margin-right: 15px;
+}
+.player h3{
+    font-size: 31px;
+}
+.player .owl-nav button{
+    position: absolute;
+    top: 25px;
+}
+.player .owl-nav button svg{
+    margin: auto;
+}
+.player .owl-prev{
+    left: 15px;
+}
+.player .owl-next{
+    right: 15px;
+}
+.player input{
+    background-color: red;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+#btn-start{
+    margin-top: 30px;
+}
+
+#blue{
+    border: 5px solid #13bbd2;
+}
+#blue svg{
+    color: #13bbd2;
+}
+#blue h3{
+    color: #13bbd2;
+}
+#blue input{
+    background-color: #CFF1F6;
+}
+
+#red{
+    border: 5px solid #CC1735;
+}
+#red svg{
+    color: #CC1735;
+}
+#red h3{
+    color: #CC1735;
+}
+#red input{
+    background-color: #E58A99;
+}
+
+#green{
+    border: 5px solid #68B835;
+}
+#green svg{
+    color: #68B835;
+}
+#green h3{
+    color: #68B835;
+}
+#green input{
+    background-color: #B3DB99;
+}
+
+#purple{
+    border: 5px solid #562B86;
+}
+#purple svg{
+    color: #562B86;
+}
+#purple h3{
+    color: #562B86;
+}
+#purple input{
+    background-color: #AA94C2;
+}
+
+#yellow{
+    border: 5px solid #FCD700;
+}
+#yellow svg{
+    color: #FCD700;
+}
+#yellow h3{
+    color: #FCD700;
+}
+#yellow input{
+    background-color: #FDEB7F;
+}
+
+#black{
+    border: 5px solid #131515;
+}
+#black svg{
+    color: #131515;
+}
+#black h3{
+    color: #131515;
+}
+#black input{
+    background-color: #888989;
+}
+
 /* end selecting players */
 
 
