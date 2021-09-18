@@ -1,0 +1,17 @@
+.ingame-section {
+    background: url('../../../assets/images/ingame-bg.png') no-repeat center center / cover;
+    height: 100vh !important;
+}
+
+.player-action-container {
+    position: absolute;
+    bottom: 15px;
+
+    &.right {
+        right: 70px;
+    }
+
+    &.left {
+        left: 70px;
+    }
+}

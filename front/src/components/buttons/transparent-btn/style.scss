@@ -1,0 +1,21 @@
+@import '../../../styles/colors';
+
+.transparentBtn{
+    background-color: transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: $BRAND_COLOR_ORANGE;
+    padding: 5px 20px;
+    width: 100%;
+    margin-bottom: 16px;
+
+    transition: .3s;
+
+    &:hover{
+        opacity: .7;
+      }
+  }

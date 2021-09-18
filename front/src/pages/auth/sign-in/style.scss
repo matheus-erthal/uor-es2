@@ -1,0 +1,17 @@
+@import '../../../styles/colors';
+
+.login-container {
+    display: flex;
+    justify-content: center;
+
+    .form-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            width: 180px;
+            margin-bottom: 50px;
+        }
+    }
+}
