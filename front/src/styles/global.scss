@@ -1,0 +1,277 @@
+@import '../styles/colors';
+
+/* geral */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body, #root{
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-color: $BACKGROUND_COLOR;
+  color: $NEUTRAL_LIGHTEST;
+}
+
+*, button, input {
+  background: none;
+  outline: none;
+  border: none;
+
+  font: 400 16px 'Roboto';
+}
+
+/* roboto condensed font-weight types: 700 */
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+}
+h1{
+  font-size: 42px;
+}
+/* raleway font-weight types: 400, 500, 700 */
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.default-section {
+  padding: 70px 0;
+  flex: 1;
+  height: 100%;
+}
+
+.centered-container {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 120px;
+}
+
+.action-container {
+  position: absolute;
+  top: 50px;
+  left: 32px;
+}
+
+.circle-btn{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #FC7F17;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.circle-btn svg{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.circle-btn::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -30px;
+  text-align: center;
+  width: 100%;
+}
+.circle-btn.group{
+  background-image: url("../assets/images/group-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  margin-top: 60px;
+}
+.circle-btn.rules::after{
+  content: "REGRAS";
+}
+.circle-btn.group::after{
+  content: "GRUPO";
+}
+.circle-btn.back::after{
+  content: "VOLTAR";
+}
+.rectangular-btn{
+  background-color: #FC7F17;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 31px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: white;
+  padding: 5px 20px;
+  border-bottom: 5px #884D09 solid;
+}
+.rectangular-btn:hover{
+  border-bottom: 0;
+  margin-top: 5px;
+}
+
+/* home */
+#main-menu{
+  height: 100vh;
+  background-image: url("../assets/images/uor-bg.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+#main-menu .logo img{
+  max-width: 600px;
+}
+#main-menu .row{
+  height: 100vh;
+}
+#main-menu .col-md-1{
+  padding-top: 50px
+}
+/* end home */
+
+/* selecting players */
+#select-players{
+  height: 100vh;
+  background-image: url("../assets/images/uor-bg.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+#select-players h1{
+  text-align: center;
+}
+#select-players .players-row{
+  height: 100vh;
+}
+#select-players .col-md-1{
+  padding-top: 50px
+}
+.player{
+  background-color: white;
+  border: 5px solid gray;
+  border-radius: 30px;
+  padding: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.player svg{
+  font-size: 80px;
+  margin-right: 15px;
+}
+.player h3{
+  font-size: 31px;
+}
+.player .owl-nav button{
+  position: absolute;
+  top: 25px;
+}
+.player .owl-nav button svg{
+  margin: auto;
+}
+.player .owl-prev{
+  left: 15px;
+}
+.player .owl-next{
+  right: 15px;
+}
+.player input{
+  background-color: red;
+  border: 0;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+#btn-start{
+  margin-top: 30px;
+}
+
+#blue{
+  border: 5px solid #13bbd2;
+}
+#blue svg{
+  color: #13bbd2;
+}
+#blue h3{
+  color: #13bbd2;
+}
+#blue input{
+  background-color: #CFF1F6;
+}
+
+#red{
+  border: 5px solid #CC1735;
+}
+#red svg{
+  color: #CC1735;
+}
+#red h3{
+  color: #CC1735;
+}
+#red input{
+  background-color: #E58A99;
+}
+
+#green{
+  border: 5px solid #68B835;
+}
+#green svg{
+  color: #68B835;
+}
+#green h3{
+  color: #68B835;
+}
+#green input{
+  background-color: #B3DB99;
+}
+
+#purple{
+  border: 5px solid #562B86;
+}
+#purple svg{
+  color: #562B86;
+}
+#purple h3{
+  color: #562B86;
+}
+#purple input{
+  background-color: #AA94C2;
+}
+
+#yellow{
+  border: 5px solid #FCD700;
+}
+#yellow svg{
+  color: #FCD700;
+}
+#yellow h3{
+  color: #FCD700;
+}
+#yellow input{
+  background-color: #FDEB7F;
+}
+
+#black{
+  border: 5px solid #131515;
+}
+#black svg{
+  color: #131515;
+}
+#black h3{
+  color: #131515;
+}
+#black input{
+  background-color: #888989;
+}
+
+/* end selecting players */
+
+
+/* the board */
+/* end the board */

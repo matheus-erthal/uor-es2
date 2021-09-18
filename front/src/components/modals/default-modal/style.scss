@@ -1,0 +1,47 @@
+@import '../../../styles/colors';
+
+#defaultModal {
+    max-width: 50%;
+    width: 100%;
+
+    .modal-content {
+        background-color: $NEUTRAL_DARKEST;
+        padding: 70px 80px;
+
+        .closeModalBtn {
+            border: 1px solid $ALERT;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            position: absolute;
+            top: 24px;
+            right: 30px;
+
+            transition: .3s;
+
+            &:hover {
+                opacity: .7;
+            }
+        }
+
+        h1 {
+            color: $BRAND_COLOR_BLUE;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+
+            i {
+                margin-right: 16px;
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: $NEUTRAL_LIGHT;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import '../../../styles/colors';
+
+.defaultBtn{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: $WHITE;
+    text-align: center;
+    background-color: $BRAND_COLOR_ORANGE;
+    border-radius: 10px;
+    height: 40px;
+    max-width: 200px;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 0 0 $BRAND_COLOR_ORANGE_DARKEST;
+
+    transition: .3s;
+
+    &:hover{
+        transform: translateY(5px);
+        box-shadow: 0 0 0 0 $BRAND_COLOR_ORANGE_DARKEST;
+    }
+}

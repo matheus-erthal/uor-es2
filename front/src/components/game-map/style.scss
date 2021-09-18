@@ -1,0 +1,53 @@
+@import '../../styles/colors';
+
+#tabs {
+	color: #52233d;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+#tabs path {
+	cursor: pointer;
+
+    &:hover {
+        stroke: $WHITE;
+    }
+} 
+
+#tabs path:hover {	
+	opacity: 1;
+}
+
+#tabs path.semoperacao {
+	cursor: default;
+	opacity: 1;
+} 
+
+#tabs .regiao {	
+	color: #666666;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#tabs .regiao span{	
+	font-size: 10px;
+	margin-left: 5px;
+}
+
+#tabs .current {
+	color: #52233d;
+}
+
+#tabs path.current {
+	opacity: 1;
+}
+
+#tabs .tab-content {
+	display: none;
+}
+
+#tabs #tabs-asia {
+	display: block;
+}
